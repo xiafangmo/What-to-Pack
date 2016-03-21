@@ -1,0 +1,26 @@
+[
+ 
+    [{
+      "Outdoor": {
+            "Clothing": ["Quick Dry Clothing", "Wind Breaker", "Fleece", "Down Jacket", "Hiking Pants", "Soft-Shell Pants", "Warm Hat", "Gloves", "Hiking Boots", "Sock Liners"],
+ 
+            "Gear": ["Trekking Bag", "Trekking Poles", "Sleeping Bag", "Tent", "Headlamp", "Satellite Phone", "Solar Charger", "Outdoor Cooking Gear"],
+ 
+            "Medicine": ["Acetazolamide"]
+        }
+	}],
+ 
+	[{
+        "Business": ["Business Suits", "Dress Shoes", "Ties/Brooch", "Cuff Links/Jewelry", "Perfume/Cologne"]
+	}],
+ 
+	[{
+        "Beach": ["Swim Suit", "Beach Wear", "Flip Flops", "High SPF Sunscreen", "Hat"]
+	}],
+ 
+	[{
+        "Vacation": ["Party Dress", "Party Shoes", "Evening Bag"]
+	}]
+
+ 
+]

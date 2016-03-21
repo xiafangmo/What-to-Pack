@@ -1,0 +1,51 @@
+
+
+[
+ 
+	{
+    "Documents": [
+               "Passport",
+               "Driver/Student License",
+               "Air Tickets Copy",
+               "Passport Photo",
+               "Emergency Contact Info"
+               ]
+	},
+ 
+ 
+ 
+	{
+        "Clothing": {
+            "Pants": ["Casual Pants", "Jeans", "Shorts"],
+ 
+            "Tops": ["Shirt", "T-Shirt", "Sweather", "Jacket", "Overcoat"],
+ 
+            "Essentials": ["Underwear", "Socks"],
+ 
+            "Shoes": ["Sneakers", "Sandles"]
+            }
+	},
+ 
+ 
+	{
+        "Toiletry": ["Shampoo", "Conditioner", "Body Wash", "Tooth Paste", "Brush", "Razor", "Nail Clipper", "Moisturizer", "Sunscreen Lotion", "Tampons", "Makeup Gear"]
+	},
+ 
+	{
+        "Electronics": ["Mobile Phone", "Plug Converter", "Various Chargers", "Camera", "Camera Charger", "Tripod", "Laptop", "Tablet", "Earphones"]
+	},
+ 
+	{
+        "Medicine": ["Pain Killer", "Cold Medicine", "Insect Repellent"]
+	},
+ 
+	{
+        "Flight Gear": ["Neck Pillow", "Ear Plugs", "Blindfold"]
+	},
+ 
+    {
+        "Miscellaneous": ["Umbrella/Rain Coat", "Glasses/Contact Lenses", "Sun Glasses", "Water Bottle"]
+	}
+ 
+ 
+ ]
