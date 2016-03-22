@@ -11,7 +11,8 @@ To run the app, you might need to
 
 
 **API keys**
-The app users Google Maps API and Open Weather API. I will leave the API keys in the student's note.
+
+The app users Google Maps API and Open Weather API. The keys are not stored in the code, for securities concerns. 
 
 - Google Maps API goes to AppDelegate
 - Open Weather API goes to OpenWeatherConstant 
@@ -20,6 +21,7 @@ Please add the keys before you review
 
 
 **Flow of the App**
+
 "What to Pack" is an app generates a packing list based on travel type and the number of travelers (the latter has been implemented yet).
 
 Users are asked to type in the destination. Google Maps AutoComplete helps them locate it fast. Users then choose among four travel types: Business, Vacation, Adventure and Beach, and three trave styles: Solo, Couple and Family. The default values are Business and Solo.
