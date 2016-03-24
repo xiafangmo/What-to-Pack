@@ -53,18 +53,18 @@ class MainViewController: UIViewController , UISearchBarDelegate, LocateOnTheMap
     
     func locateWithLongitude(lat: Double, lon: Double, title: String) {
         
-        dispatch_async(dispatch_get_main_queue()) { () -> Void in
-            self.whereButton.setTitle(title, forState: .Normal)
-            
-            self.days.hidden = false
-            self.textField.hidden = false
-            self.travelType.hidden = false
-            self.travelPeople.hidden = false
-        }
+        let commaSplitter = createSplitter(",")
+        let shortTitle = commaSplitter(title)[0]
+        self.whereButton.setTitle(shortTitle, forState: .Normal)
+        
+        self.days.hidden = false
+        self.textField.hidden = false
+        self.travelType.hidden = false
+        self.travelPeople.hidden = false
         
         TravelParameters.sharedInstance.lat = lat
         TravelParameters.sharedInstance.lon = lon
-        TravelParameters.sharedInstance.title = title
+        TravelParameters.sharedInstance.title = shortTitle
         
     }
     
@@ -144,6 +144,13 @@ class MainViewController: UIViewController , UISearchBarDelegate, LocateOnTheMap
         
         let navController = storyboard?.instantiateViewControllerWithIdentifier("savedLists")
         presentViewController(navController!, animated: true, completion: nil)
+    }
+    
+    func createSplitter(separator: String) -> (String -> [String]) {
+        func split(source: String) -> [String] {
+            return source.componentsSeparatedByString(separator)
+        }
+        return split
     }
     
     
